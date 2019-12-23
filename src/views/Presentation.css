@@ -1,0 +1,13 @@
+.presentation {
+      padding-top: 18%;
+      padding-bottom: 18%;
+}
+
+@media screen and (max-width: 420px) {
+.presentation{
+      font-size: 50%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding-top: 70%;
+      padding-bottom: 70%;
+    }}

@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+.scrambleText {
+font-family: 'Roboto Mono', monospace;    
+text-align: center;
+color: black;
+font-size: larger;
+} 
+
+@media screen and (max-width: 420px) {
+    .scrambleText{
+      font-size: 200%;
+    }}

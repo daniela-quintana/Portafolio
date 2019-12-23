@@ -1,0 +1,61 @@
+/* @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100'; */
+@import 'https://fonts.googleapis.com/css?family=Lato&display=swap';
+  h1 {
+    margin-left: 10%;
+  }
+
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+  }
+
+  .projects {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;    
+    margin-right: 10%;
+    margin-left: 10%;
+    flex-direction: column;
+   }
+
+  .mockupsleft {
+    width: 40%;
+    float: left;
+    padding-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  .mockups2 {
+  display: inline;
+  }
+
+  .mockupsrigth {
+    width: 40%;
+    float: right;
+    padding-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  @media screen and (max-width: 420px) {
+
+    .mockupsleft {
+      width: 50%;
+      padding-right: 5%;
+      flex-direction: column;
+    }
+
+    .mockupsright {
+      width: 50%;
+      padding-right: 5%;
+      flex-direction: column;
+    }
+
+    p {
+      font-size: 80%;
+    }}
