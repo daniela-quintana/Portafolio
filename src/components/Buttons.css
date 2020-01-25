@@ -1,3 +1,4 @@
+
 .btn {
     border: none;
     background: #404040;
@@ -19,4 +20,70 @@
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.3s ease 0s;
+}
+
+html *,
+html *:before,
+html *:after {
+  box-sizing: border-box;
+  transition: 0.5s ease-in-out;
+}
+html i, html em,
+html b, html strong,
+html span {
+  transition: none;
+}
+
+*:before,
+*:after {
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  line-height: 50px;
+  color: black;
+}
+
+.btn-0 {
+  color: #222222;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 15%;
+  height: 45px;  
+  /* max-width: 190px; */
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 1%;
+  text-align: center;
+  font-size: small;
+}
+
+.btn-0:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #222222;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.btn-0:hover {
+  color: #cee9ef;
+}
+.btn-0:hover:before {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+@media (min-width: 600px) {
+  .wrap {
+    width: 50%;
+    float: left;
+  }
 }

@@ -12,11 +12,11 @@
   .projects {
     display: flex;
     align-items: center;
+    flex-direction: column;
     color: #000000;
     font-family: 'Roboto Mono', monospace;    
     margin-right: 10%;
     margin-left: 10%;
-    flex-direction: column;
    }
 
   .mockupsleft {
@@ -30,7 +30,7 @@
   display: inline;
   }
 
-  .mockupsrigth {
+  .mockupsright {
     width: 40%;
     float: right;
     padding-left: 5%;

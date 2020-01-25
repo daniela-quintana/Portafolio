@@ -12,12 +12,16 @@
       typing 3.0s steps(25, end),
       blink-caret .5s step-end infinite;
     text-align: center;
+    width: min-content;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
+
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 60% }
   }
   
   /* The typewriter cursor effect */
