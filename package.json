@@ -5,7 +5,7 @@
   "homepage": "https://daniela-quintana.github.io/Portafolio",
   "dependencies": {
     "gh-pages": "^2.1.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scramble": "^0.4.2",
